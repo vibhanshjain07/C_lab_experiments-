@@ -6,12 +6,13 @@ int main(void)
     int l, b;
 
         printf("Length: ");
-        scanf("%i", &l);    
+        scanf("%d", &l);    
 
         printf("Breadth: ");
-        scanf("%i", &b);
+        scanf("%d", &b);
 
         printf("Area=%i, Perimeter=%i\n", l * b, 2 * (l + b));
  
         return 0;
+
 }
